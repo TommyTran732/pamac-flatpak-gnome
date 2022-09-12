@@ -18,7 +18,7 @@ provides=('pamac')
 options=(!emptydirs)
 install=pamac.install
 source=("pamac-$pkgver.tar.gz::$url/-/archive/v$pkgver/pamac-v$pkgver.tar.gz") 
-sha512sums=('8b5b2298e16bcfc6fbdfbf2e2cd77cb9cd769d9faa503dd8fec35c18f37b52589ffda670dc9299a8f4962f039ba870007b4601a2610ac0fc298f64a4f8e67eeb')
+sha512sums=('2e6a7106d154acff85e57e14066bb748e69c8e6831fb992790bfd2906f09defcb4bac399a6ddd33e369f4efe1c25f1367a19b8ffd71f69506d016adde9f6a805')
 
 prepare() {
   # adjust version string
